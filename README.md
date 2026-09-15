@@ -1,35 +1,76 @@
-# 📊 Superstore Sales & Profit Analysis Dashboard
+# Superstore Sales & Profit Analysis Dashboard
 
-> An end-to-end data analytics project transforming 10,000+ rows of raw retail data into actionable business insights.
+An end-to-end data analytics project analyzing **10,000+ rows of retail sales data** to identify sales, profit, category, customer segment, and regional performance trends using **Microsoft Excel and Power BI**.
 
-## 👁️ Dashboard Preview
-![Dashboard Preview](image.png)
+## 📊 Dashboard Preview
 
----
+![Superstore Sales Dashboard](images/image.png)
 
 ## 🎯 Project Objective
-The goal of this project is to analyze the historical sales data of a retail Superstore to identify profitability trends, discover top-performing product categories, and highlight areas for regional business growth across different customer segments.
+
+The objective of this project is to analyze historical Superstore sales data, identify profitability trends, evaluate product and customer segments, and highlight regional business growth opportunities.
 
 ## 🛠️ Tech Stack Used
-* **Data Cleaning & Preprocessing:** Microsoft Excel (Handled data formatting and structural transformations)
-* **Data Visualization & Modeling:** Microsoft Power BI (DAX formulas, Interactive visual filtering)
-* **Data Source:** Kaggle (10K+ records, 4 Regions, 3 Customer Segments)
 
----
+- **Microsoft Excel** – Data Cleaning & Preprocessing
+- **Power BI** – Data Visualization & Dashboard Development
+- **DAX** – KPI Calculations and Measures
 
-## 💡 Key Business Insights
-By analyzing the 12-month data, the following critical insights were derived:
+## 📈 Key Business Insights
 
-* **Top-Level Metrics:** Successfully tracked **$8.95M** in Total Sales, **130K** Quantity Sold, and generated **$1.31M** in Total Profit alongside **$120.61K** in Shipping Costs.
-* **Category Leader:** The **Technology** category emerged as the primary profit driver, accounting for **~52%** of the total category profit.
-* **Regional Strength:** The **Central Region** was identified as the most profitable operating area, contributing **~39.6%** to the overall regional profit.
+- **Total Sales:** $8.95M generated across the analyzed retail transactions.
+- **Total Profit:** $1.31M, highlighting overall profitability across products and regions.
+- **Total Quantity Sold:** 130K units, indicating strong product demand.
+- **Shipping Cost:** $120.61K, providing visibility into logistics-related expenses.
+- **Category Performance:** Technology was one of the strongest contributors to overall profitability.
+- **Customer Segments:** The Consumer segment contributed the largest share of overall sales.
+- **Regional Analysis:** The dashboard compares regional sales and profitability to identify stronger and weaker-performing markets.
+- **Sub-Category Analysis:** Product-level profitability was analyzed to identify high-performing and low-performing sub-categories.
 
----
+## 🔄 Project Workflow
+
+1. Collected the Superstore retail sales dataset.
+2. Imported the raw dataset into **Microsoft Excel**.
+3. Performed data cleaning and preprocessing.
+4. Checked data consistency and prepared the dataset for analysis.
+5. Imported the cleaned data into **Power BI**.
+6. Created DAX measures for key performance indicators.
+7. Developed interactive visualizations for sales and profit analysis.
+8. Analyzed category, sub-category, customer segment, and regional performance.
+9. Designed an interactive dashboard to present actionable business insights.
+
+## 📌 Dashboard Features
+
+- KPI cards for **Sales, Profit, Quantity, and Shipping Cost**
+- Monthly **Profit Trend Analysis**
+- **Profit by Category**
+- **Profit by Customer Segment**
+- **Profit by Region**
+- **Profit by Sub-Category**
+- Category and region filters for interactive analysis
 
 ## 📂 Files in this Repository
-* `Sample Superstore Report Project.pbix`: The main Power BI dashboard file containing DAX measures and the data model.
-* `Superstore_Sales_Data.xlsx`: The cleaned and transformed dataset used for the analysis.
-* `image.png`: Static screenshot of the final dashboard.
 
----
-*Feel free to download the `.pbix` file to interact with the dashboard and explore the data models!*
+- `Superstore Report.pbix` – Power BI dashboard file
+- `Superstore_Sales_Dataset.xlsx` – Cleaned Superstore dataset
+- `README.md` – Project documentation
+- `images/` – Dashboard preview images
+
+## 💡 Business Value
+
+This dashboard helps businesses:
+
+- Monitor overall sales and profitability
+- Identify high-performing product categories
+- Compare customer segment performance
+- Evaluate regional business performance
+- Identify profitable and less-profitable sub-categories
+- Support data-driven sales and business decisions
+
+## 👤 Author
+
+**Kapil Makode**
+
+**Data Analyst | Excel | SQL | Python | Power BI**
+
+GitHub: [Kapil Makode](https://github.com/kapilpm3999)
