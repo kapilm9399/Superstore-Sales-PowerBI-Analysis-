@@ -4,7 +4,7 @@ An end-to-end data analytics project analyzing **10,000+ rows of retail sales da
 
 ## 📊 Dashboard Preview
 
-![Superstore Sales Dashboard](images/image.png)
+![Superstore Sales Dashboard](image.png)
 
 ## 🎯 Project Objective
 
