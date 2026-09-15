@@ -1,114 +1,84 @@
-# 📊 Superstore Sales & Profit Analysis Dashboard
+# 📊 Superstore Sales & Profit Analysis
 
-An interactive **Power BI data analytics project** built to analyze retail sales, profitability, customer segments, products, and regional performance.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 
-The project demonstrates a practical analytics workflow using **Excel, Power BI, and DAX** to transform raw sales data into business insights.
+> Interactive sales dashboard analyzing **$8.95M revenue** across categories, regions and customer segments using Excel & Power BI.
+
+---
+
+## 📌 Dashboard Preview
+
+![Dashboard](image.png)
+
+---
 
 ## 🎯 Business Objective
 
-The objective is to understand:
+Identify which **categories, regions and customer segments** drive profit — and which ones are hurting the business.
 
-- Overall sales and profitability performance
-- Monthly profit trends
-- Category and sub-category performance
-- Customer segment contribution
-- Regional performance
-- Areas of strong and weak profitability
+---
 
-## 🛠️ Tools & Technologies
-
-| Tool | Purpose |
-|---|---|
-| **Microsoft Excel** | Data cleaning and preprocessing |
-| **Power BI** | Data modeling, visualization and dashboard development |
-| **DAX** | KPI calculations and analytical measures |
-
-## 📈 Key KPIs
+## 📈 Key Metrics
 
 | KPI | Value |
-|---|---:|
-| **Total Sales** | $8.95M |
-| **Total Profit** | $1.31M |
-| **Quantity Sold** | 130K |
-| **Shipping Cost** | $120.61K |
+|-----|-------|
+| 💰 Total Sales | $8.95M |
+| 📦 Total Profit | $1.31M |
+| 📊 Profit Margin | 14.6% |
+| 🛍️ Units Sold | 130K+ |
+| 🚚 Shipping Cost | $120.61K |
 
-## 🔍 Key Analysis
+---
 
-### Sales & Profitability
+## 💡 Key Insights
 
-- Analyzed overall sales and profit performance.
-- Examined monthly profit trends to understand changes over time.
-- Compared product categories and sub-categories based on profitability.
+- **Technology** is the most profitable category
+- **West region** leads in both sales and profit
+- **Consumer segment** contributes the highest revenue
+- **Central region** has lowest profit — needs pricing review
+- **Furniture** has thin margins despite high sales volume
 
-### Customer Segments
+---
 
-Compared performance across:
+## 🛠️ Tools & Workflow
 
-- Consumer
-- Corporate
-- Home Office
-
-The analysis helps identify which customer segments contribute most to revenue and profitability.
-
-### Regional Performance
-
-Analyzed sales and profit across regions to identify stronger and weaker-performing markets.
-
-### Product Performance
-
-Compared sub-categories to identify products contributing positively or negatively to overall profitability.
-
-## 🔄 Project Workflow
-
-```text
-Raw Dataset
-     ↓
-Excel Data Cleaning
-     ↓
-Data Validation
-     ↓
-Power BI Import
-     ↓
-DAX Measures
-     ↓
-Interactive Dashboard
-     ↓
-Business Analysis
-     ↓
-Actionable Insights
+```
+Excel  →  Data Cleaning & Validation
+  ↓
+Power BI  →  Data Modeling & Dashboard
+  ↓
+DAX  →  KPI Measures & Calculations
+  ↓
+Insights  →  Business Recommendations
 ```
 
-## 📊 Dashboard Features
+---
 
-- KPI cards for Sales, Profit, Quantity and Shipping Cost
-- Monthly Profit Trend
-- Profit by Category
-- Profit by Sub-Category
-- Profit by Customer Segment
-- Regional Profit Analysis
-- Interactive filters and slicers
+## 📂 Files
 
-## 💡 Business Value
+| File | Description |
+|------|-------------|
+| `Superstore Report.pbix` | Power BI Dashboard |
+| `Superstore_Sales_Data.xlsx` | Cleaned Dataset |
 
-The dashboard can help business teams:
+---
 
-- Monitor revenue and profitability
-- Identify high-performing categories
-- Compare customer segments
-- Evaluate regional performance
-- Identify profitable and less-profitable products
-- Support data-driven business decisions
+## 🚀 How to Use
 
-## 📂 Repository Contents
+1. Download the `.pbix` file
+2. Open with **Power BI Desktop** (free)
+3. Use slicers to explore by Region, Segment & Category
 
-- `Superstore Report.pbix` — Power BI dashboard
-- `Superstore_Sales_Dataset.xlsx` — Dataset used for analysis
-- `README.md` — Project documentation
-- `images/` — Dashboard preview images
+---
 
-## 👤 Author
+## 👤 Kapil Makode
+Aspiring Data Analyst | Power BI | Excel | DAX
 
-**Kapil Makode**  
-Data Analyst | SQL | Python | Power BI | Excel
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kapil-makode-2b3a45358)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapilm9399)
 
-[GitHub Profile](https://github.com/kapilm9399)
+---
+
+⭐ *If you found this helpful, consider starring the repo!*
